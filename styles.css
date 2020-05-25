@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'hand_of_sean_demoregular';
+    src: url('fonts/\hand_of_sean_demo-webfont.woff2') format('woff2'),
+         url('fonts/\hand_of_sean_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'panton_rust_heavygrungeshadow';
+    src: url('fonts/\pantonrustheavy-grsh-webfont.woff2') format('woff2'),
+         url('fonts/\pantonrustheavy-grsh-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+body {
+    max-width: 1980px;
+    /* background-color: #13151f; */
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+      
+      /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+      .row.content {height: 450px}
+      
+      /* Set gray background color and 100% height */
+      .sidenav {
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        height: 100%;
+      }
+      
+      /* Set black background color, white text and some padding */
+      footer {
+        background-color: #555;
+        color: white;
+        padding: 15px;
+      }
+    
+
+.of {
+    object-fit: cover;
+    /*
+    object-fit: scale-down;
+    object-fit: contain;
+    object-fit: fit;
+    */
+}
+
+.red-box {
+    padding: 0.125rem 0.5rem;
+    background-color: #dc2121;
+    border-radius: 0.25rem;
+    font-weight: 700;;
+}
+
+.all-caps {
+    text-transform: uppercase;;
+}
+
+.yellow {
+    color: #ffbb02;
+}
+
+header {
+    background-color: #13151f;
+    color: #fff;
+    text-align: center;
+    padding: 4.5em 0em 9em;
+}
+
+.inner-page {
+    min-width: 995px;
+}
+
+.tag-line {
+    width: 62%;
+    top: 167px;
+    left: 185px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.tiny-tag-line {
+    top: 330px;
+    left: 202px;
+    font-size: 1.1em;
+}
+
+.making-6-figures-video{
+    margin-top: -80px;
+    background-color: #13151f; 
+}
+.making-6-figures-video *{
+    z-index: 10;
+}
+
+.video-timer-enroll {
+    margin-top: -165px;
+    background-image: url('images/timer_background.png');
+    background-size:cover;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+.sidenav {
+    height: auto;
+    padding: 15px;
+}
+.row.content {height:auto;} 
+}
+
+footer {
+    background-color: #13151f;
+    color: #fff;
+    text-align: center;
+    padding: 4.5em 0em;
+}
+.footer-images img{
+    height:55px;
+    width: auto;
+}
+
+footer i {
+    color: #ffbb02;
+    padding: 5px 2px 20px;
+    cursor: pointer;
+}
+
+#copyright {
+    font-weight: 700;
+}
+
+#footer-links a {
+    color: #fff;
+    text-decoration: none;
+    cursor:pointer;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
