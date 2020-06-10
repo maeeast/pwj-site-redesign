@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Profit With JavaScript</title>
 </head>
 <body>
@@ -30,7 +31,31 @@
                     <img src="\images\6-figures-video-placeholder.png" alt="JavaScript Logo">
                 </div>   
             </div>
-            <div class="video-timer-enroll" style="height: 100%"></div>
+            <div class="video-timer-enroll d-flex justify-content-center" style="height: 100%">
+                <div class="timer" style="margin-top: 170px;">
+                    
+                    <div id="countdown" style="text-align: center;color: red; font-weight: bold;font-size: 1.5em;"></div>
+                    <table class="table" style="text-align: center;">
+                        <thead>
+                          <tr>
+                            <th id="days" style="border: none;padding-bottom: 0em;font-size: 1.5em;"></th>
+                            <th id="hours" style="border: none;padding-bottom: 0em;font-size: 1.5em;"></th>
+                            <th id="mins" style="border: none;padding-bottom: 0em;font-size: 1.5em;"></th>
+                            <th id="secs" style="border: none;padding-bottom: 0em;font-size: 1.5em;"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td style="border: none;color: white;padding-top: .25em;font-weight: bold;">Days</td>
+                            <td style="border: none;color: white; padding-top: .25em;font-weight: bold;">Hours</td>
+                            <td style="border: none;color: white; padding-top: .25em;font-weight: bold;">Mins</td>
+                            <td style="border: none;color: white; padding-top: .25em;font-weight: bold;">Secs</td>
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                </div>
+            </div>
             <div class="top-tech-companies"></div>
             <div class="course-features"></div>
             <div class="success-coaches"></div>
