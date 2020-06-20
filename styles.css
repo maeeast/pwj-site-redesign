@@ -180,3 +180,112 @@ footer i {
         margin-top: -166px;
     }
 }
+
+
+/* Slack-acess CSS */
+
+.col-md-6.right.text-sm-left {display: flex;flex-direction: column;justify-content: center;}
+
+.btn-join-now {
+    width: 220px;
+    cursor: pointer;
+}
+
+
+.text-up {
+    color: #ffff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.main-content .col-sm-6.left {
+    height: 310px;
+    padding-left: 35px;
+}
+
+.main-content {
+    position: absolute;
+    width: 100%;
+    height: 310px;
+    top: 347px;
+    z-index: 10;
+}
+
+.title-access {
+    position: absolute;
+    width: 90%;
+    height: 180px;
+    background-image: url(./../images/slack-title.png);
+    background-size: contain;
+    top: 122px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bt-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(./../images/slack-bt-bg.png);
+    background-size: cover;
+    background-position-y: 35px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.container-slack {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('./../images/slack-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.slack-access {
+    width: 100%;
+    height: 843px;
+    background-color: #1c1e2a;
+}
+
+
+/* CSS Media Screen */
+@media (max-width: 425px){
+    
+.slack-access {
+    height: 700px;
+}
+
+.text-up {
+    margin-bottom: 30px;
+    font-size: 12px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.btn-join-now {
+    margin: auto;
+}
+
+.col-md-6.right.text-sm-left {
+    text-align: center;
+}
+
+.col-md-6.left {
+    margin-bottom: 30px;
+}
+
+.main-content {
+    top: 220px;
+}
+
+.title-access {
+    background-image: url(./../images/media-slack-title.png);
+    height: 130px;
+    top: 40px;
+}
+}
+/*End Slack Access CSS*/
